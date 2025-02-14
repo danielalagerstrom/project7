@@ -8,7 +8,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Spaghetti Carbonara", 
       category: "Pasta", 
       description: "Classic Italian pasta dish with eggs, cheese, pancetta, and pepper.", 
-      image: "/images/carbonara.png",
+      image: "./images/carbonara.png",
       ingredients: ["200g spaghetti", "100g pancetta", "2 eggs", "50g parmesan cheese", "Black pepper", "Salt"],
       instructions: "1. Cook spaghetti. 2. Fry pancetta. 3. Mix eggs and cheese. 4. Combine everything with pasta.",
       level: "Medium"
@@ -19,7 +19,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Chicken Curry", 
       category: "Asian", 
       description: "Rich and creamy curry with tender chicken pieces and aromatic spices.", 
-      image: "/images/chicken-curry.png",
+      image: "./images/chicken-curry.png",
       ingredients: ["500g chicken", "1 onion", "2 cloves garlic", "400ml coconut milk", "2 tbsp curry powder"],
       instructions: "1. Fry onion and garlic. 2. Add chicken and cook. 3. Stir in curry powder and coconut milk. 4. Simmer for 20 minutes.",
       level: "Easy"
@@ -30,7 +30,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Caesar Salad",
       category: "Salad",
       description: "Crispy romaine lettuce with creamy Caesar dressing, croutons, and parmesan.", 
-      image: "/images/caesar-salad.png",
+      image: "./images/caesar-salad.png",
       ingredients: ["1 head romaine lettuce", "1/2 cup Caesar dressing", "1/4 cup croutons", "1/4 cup grated parmesan cheese"],
       instructions: "1. Toss lettuce with dressing. 2. Add croutons and cheese. 3. Serve chilled.",
       level: "Easy"
@@ -40,7 +40,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Beef Tacos",
       category: "Mexican",
       description: "Tasty beef tacos served with fresh salsa and soft tortillas.",
-      image: "/images/beef-tacos.png",
+      image: "./images/beef-tacos.png",
       ingredients: ["500g ground beef", "1 onion", "1 bell pepper", "1/2 cup salsa", "4 tortillas"],
       instructions: "1. Cook beef, onion, and pepper. 2. Add salsa. 3. Serve in tortillas.",
       level: "Easy"
@@ -50,7 +50,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Veggie Burger", 
       category: "Vegetarian", 
       description: "Healthy veggie burger made with beans, mushrooms, and spices.", 
-      image: "/images/veggie-burger.png",
+      image: "./images/veggie-burger.png",
       ingredients: ["1 can black beans", "1/2 cup breadcrumbs", "1/2 cup mushrooms", "1 tsp cumin", "1 tsp paprika"],
       instructions: "1. Mash beans. 2. Mix with other ingredients. 3. Form patties and cook.",
       level: "Medium"
@@ -60,7 +60,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Mushroom Risotto", 
       category: "Vegetarian", 
       description: "Creamy risotto cooked with flavorful mushrooms and parmesan.", 
-      image: "/images/mushroom-risotto.png",
+      image: "./images/mushroom-risotto.png",
       ingredients: ["1 cup arborio rice", "1/2 cup white wine", "1/2 cup grated parmesan", "1 cup mushrooms", "1 onion"],
       instructions: "1. Cook onion and mushrooms. 2. Add rice and wine. 3. Stir in broth and cheese.",
       level: "Medium"
@@ -70,7 +70,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Beef Stroganoff", 
       category: "Beef", 
       description: "Savory beef stroganoff with mushrooms in a creamy sauce.", 
-      image: "/images/beef-stroganoff.png",
+      image: "./images/beef-stroganoff.png",
       ingredients: ["500g beef strips", "1 onion", "200g mushrooms", "1/2 cup sour cream", "1 tbsp flour"],
       instructions: "1. Brown beef and onion. 2. Add mushrooms. 3. Stir in flour and sour cream.",
       level: "Medium"
@@ -80,7 +80,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Chicken Alfredo", 
       category: "Chicken", 
       description: "Pasta dish with creamy Alfredo sauce and grilled chicken.", 
-      image: "/images/chicken-alfredo.png",
+      image: "./images/chicken-alfredo.png",
       ingredients: ["200g fettuccine", "200g chicken breast", "1 cup heavy cream", "1/2 cup parmesan cheese", "2 cloves garlic"],
       instructions: "1. Cook pasta. 2. Grill chicken. 3. Make sauce with cream, cheese, and garlic.",
       level: "Medium"
@@ -90,7 +90,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Beef Wellington", 
       category: "Beef", 
       description: "Tender beef wrapped in puff pastry with mushroom duxelles.",
-      image: "/images/beef-wellington.png",
+      image: "./images/beef-wellington.png",
       ingredients: ["500g beef fillet", "200g mushrooms", "1 sheet puff pastry", "2 cloves garlic", "1 egg"],
       instructions: "1. Sear beef. 2. Make duxelles. 3. Wrap beef in pastry. 4. Bake until golden.",
       level: "Hard"
@@ -100,7 +100,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Chicken Parmesan", 
       category: "Chicken", 
       description: "Crispy breaded chicken topped with marinara sauce and cheese.", 
-      image: "/images/chicken-parmesan.png",
+      image: "./images/chicken-parmesan.png",
      ingredients: ["2 chicken breasts", "1 cup breadcrumbs", "1 cup marinara sauce", "1/2 cup mozzarella cheese", "1/4 cup parmesan cheese"],
      instructions: "1. Bread chicken. 2. Fry until golden. 3. Top with sauce and cheese. 4. Bake until bubbly.",
      level: "Medium"
