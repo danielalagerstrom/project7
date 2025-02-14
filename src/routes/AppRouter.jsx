@@ -22,7 +22,7 @@ const router = createHashRouter([
         element: <Home />,
       },
       {
-        path: "../Recipes",
+        path: "recipes",  // Fix the path here
         element: <Recipes />,
       },
       {
@@ -30,7 +30,7 @@ const router = createHashRouter([
         element: <Favorites />,
       },
       {
-        path: "about",
+        path: "about",  // Fix the path here
         element: <About />,
       },
       {
