@@ -8,7 +8,7 @@ import RecipeModal from "../components/RecipeModal"; // Import modal component
       name: "Spaghetti Carbonara", 
       category: "Pasta", 
       description: "Classic Italian pasta dish with eggs, cheese, pancetta, and pepper.", 
-      image: "./images/carbonara.png",
+      image: `${import.meta.env.BASE_URL}images/carbonara.png`,
       ingredients: ["200g spaghetti", "100g pancetta", "2 eggs", "50g parmesan cheese", "Black pepper", "Salt"],
       instructions: "1. Cook spaghetti. 2. Fry pancetta. 3. Mix eggs and cheese. 4. Combine everything with pasta.",
       level: "Medium"
