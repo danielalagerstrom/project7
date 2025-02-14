@@ -12,8 +12,8 @@ function RecipeList({ recipes, handleEdit, handleDelete }) {
                 <li key={index} className="recipe">
                     <h3>{recipe.title}</h3>
                     <p>{recipe.content}</p>
-                    <button className="btn primary" onClick={() => handleEdit(index)}>Edit</button>
-                    <button className="btn primary" onClick={() => handleDelete(index)}>Delete</button>
+                    <button className="primary btn" onClick={() => handleEdit(index)}>Edit</button>
+                    <button className="primary btn" onClick={() => handleDelete(index)}>Delete</button>
                 </li>
             ))}
         </ul>

@@ -1,28 +1,29 @@
-import { createHashRouter, RouterProvider } from "react-router-dom";
-import Home from "../pages/Home";
-import Recipes from "../pages/Recipes";
-import Favorites from "../pages/Favorites";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
+import Favorites from "./pages/Favorites";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-const router = createHashRouter([  
+const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <>
         <Header />
+        <Home />
         <Footer />
       </>
     ),
     children: [
       {
-        index: true,
+        index: true, // This sets "/" to render the Home component
         element: <Home />,
       },
       {
-        path: "recipes",  // Fix the path here
+        path: "recipes",
         element: <Recipes />,
       },
       {
@@ -30,7 +31,7 @@ const router = createHashRouter([
         element: <Favorites />,
       },
       {
-        path: "about",  // Fix the path here
+        path: "about",
         element: <About />,
       },
       {
@@ -41,8 +42,9 @@ const router = createHashRouter([
   },
 ]);
 
-function AppRouter() {
+function App() {
   return <RouterProvider router={router} />;
 }
 
-export default AppRouter;
+export default App;
+

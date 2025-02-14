@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import Recipes from "../pages/Recipes";
-import Favorites from "../pages/Favorites";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
+import Favorites from "./pages/Favorites";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />npm 
       </Routes>
       <Footer />
     </>
@@ -25,5 +25,4 @@ const App = () => {
 };
 
 export default App;
-
 

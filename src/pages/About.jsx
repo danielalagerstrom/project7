@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="text-area">
       <h1>About</h1>
-      <p>Dish Delights has thousands of recipes you will love to cook, 
+      <p className="about-intro">Dish Delights has thousands of recipes you will love to cook, 
         from easy weeknight dinners to holiday showstoppers. Editor-curated collections 
         make it easy to find the right recipe, and helpful step-by-step visuals make them 
         fun and simple to cook. We publish new recipes every day.

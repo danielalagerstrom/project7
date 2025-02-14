@@ -267,6 +267,7 @@
   .recipe-btn {
     background: linear-gradient(to right, #ff7e5f, #ff3f81);
     color: #000000;
+    font-weight: bold;
     padding: 12px 24px;
     margin-top: 10px;
    font-size: 1rem;
@@ -300,16 +301,21 @@
   
   .modal ul {
     text-align: left;
+    border-color: #FF447F;
+    border-radius: 15px;
   }
   
   .modal button {
-    margin-top: 15px;
-    padding: 8px 12px;
-    border: none;
-    background: #ff5a5f;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    background: linear-gradient(to right, #ff7e5f, #ff3f81);
+    color: #000000;
+    padding: 12px 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   font-size: 1rem;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   transition: 0.3s ease;
   }
   
   .modal button:hover {
@@ -331,6 +337,7 @@
 h1, h2 {
   text-align: center;
   color: #333;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -353,17 +360,17 @@ textarea {
   border-radius: 15px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #000000;
-  border-radius: 4px;
-  background-color: #fff;
+ul li {
+  margin: 10px 0;         
+  padding: 10px;         
+  font-size: 1rem;         
+  font-weight: 500;    
+  color: #000000;              
+  background-color: #f9f9f9; 
+  border-radius: 15px;   
+  border: 1px solid #FF7C61;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth background change */
 }
 
 li h3 {
@@ -378,6 +385,12 @@ li button {
   margin-right: 5px;
 }
 
+.favorites {
+  margin-top: 20px;
+  margin: 40px;
+  background: linear-gradient(to right, #ff7e5f, #ff3f81);
+}
+
   /*About page styling */
 
   .text-area {
@@ -389,6 +402,17 @@ li button {
     padding: 10px;
     text-align: center;
   }
+
+  .about-intro {
+    display: flex;
+    justify-content: center;
+    margin-block: 60px;
+    margin-top: 40px;
+    font-family: 'Georgia', sans-serif;
+    color: #000000;
+    padding: 20px;
+  }
+
 
   .about {
     display: flex;
@@ -402,12 +426,12 @@ li button {
   .listing {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Georgia', sans-serif;
     color: #000000;
     font-weight: bold;
     padding: 20px;
-    line-height: 1.2;
+    line-height: 1;
   }
 
   .image {
@@ -433,6 +457,7 @@ li button {
 
    .input area {
     width: 100%;
+    align-items: center;
    }
 
    .feedback {

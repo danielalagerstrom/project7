@@ -23,7 +23,7 @@ function RecipeForm({ currentRecipe, handleChange, handleSubmit, isEditing }) {
                     required
                 />
             </div>
-            <button className="secondary btn" type="submit">{isEditing ? 'Update' : 'Create'} Recipe</button>
+            <button className="primary btn" type="submit">{isEditing ? 'Update' : 'Create'} Recipe</button>
         </form>
     );
 }
