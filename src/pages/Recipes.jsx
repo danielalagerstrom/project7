@@ -1,6 +1,6 @@
 import { useState } from "react";
 import RecipeCard from "../components/RecipeCard";
-import RecipeModal from "../components/RecipeModal"; // Import modal component
+import RecipeModal from "../components/RecipeModal"; 
 
   const recipesData= [
     { 

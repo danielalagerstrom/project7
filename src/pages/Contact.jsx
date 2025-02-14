@@ -17,7 +17,7 @@ setMessage('');
 return (
 <section className="contact">
 <h2 className="about">Location</h2>
-      <p><bold>Address:</bold>456 Culinary Avenue Gourmet Town, 1010 Vienna, Austria</p>
+      <p>Address: 456 Culinary Avenue Gourmet Town, 1010 Vienna, Austria</p>
       <h2 className="about">Opening hours</h2>
       <p>Monday-Friday 9:00-15:00</p>
       <h2 className="about">Telephone</h2>
