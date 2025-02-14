@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />npm 
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
@@ -25,4 +25,5 @@ const App = () => {
 };
 
 export default App;
+
 
