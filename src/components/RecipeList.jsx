@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import React from 'react';
 
 function RecipeList({ recipes, handleEdit, handleDelete }) {
-    if (!recipes || !Array.isArray(recipes)) {
-        return <p>No recipes available.</p>;
-    }
+    
 
     return (
         <ul className="recipes">
